@@ -3,11 +3,12 @@ import { defineConfig } from 'vitest/config'
 export default defineConfig({
   test: {
     globals: true,
-    environment: 'jsdom',
+    environment: 'happy-dom',
     // setupFiles: ['src/setupTests.ts'],
     include: [
         'src/__tests__/**/*.{test,spec}.{ts,tsx}'
     ],
-    exclude: ['node_modules', 'dist']
+    exclude: ['node_modules', 'dist'],
+    restoreMocks: true
   }
 })
