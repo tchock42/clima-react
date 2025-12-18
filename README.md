@@ -69,7 +69,7 @@ El pipeline recomendado incluye:
 - Build (npm run build)
 - Deploy automático
 
-![CI/CD Pipeline](https://github.com/tchock42/clima-react/actions/workflows/ci-cd.yml/badge.svg?branch=gh-pages)
+[![CI/CD Pipeline](https://github.com/tchock42/clima-react/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/tchock42/clima-react/actions/workflows/ci-cd.yml)
 
 ## 📸 Demo
 ([Página en Vercel](https://tchock42.github.io/clima-react/))
